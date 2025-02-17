@@ -1,3 +1,51 @@
+# Project-specific data directories
+data/raw/*
+data/processed/*
+data/analysis/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/analysis/.gitkeep
+
+# Large datasets
+*.csv
+*.json
+!data/examples/*.csv
+!data/examples/*.json
+
+# GrimoireLab specific
+*.test
+*.log.json
+grimoirelab.cfg
+
+# Analysis outputs
+*.pkl
+figures/*
+plots/*
+!figures/.gitkeep
+!plots/.gitkeep
+
+# VS Code (if you use it)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# API keys and secrets
+.env.local
+.env.*.local
+config.local.ini
+
+# OS specific
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,3 +217,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+

@@ -34,15 +34,18 @@ project-root/
 │   ├── analysis/              # Analysis scripts
 │   └── visualization/         # Visualization scripts
 ├── notebooks/                 # Jupyter notebooks
-└── docs/                     # Documentation
+├── docs/                     # Documentation
+├── requirements.txt          # Python dependencies
+├── README.md               # Project overview
+└── .gitignore             # Git ignore rules
 ```
 
 ## Setup
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sstub-pr-metrics.git
-cd sstub-pr-metrics
+git clone https://github.com/yourusername/sstub-review-analysis.git
+cd sstub-review-analysis
 ```
 
 2. Install dependencies:
