@@ -8,7 +8,7 @@ This study examines how pull request (PR) characteristics and review practices i
 
 ## Research Questions
 
-- **RQ1:** How does the number of reviewers in a pull request relate to the likelihood of introducing SStuBs across different SStuB types, controlling for PR size?
+- **RQ1:** How does the number of reviewers in a PR relate to the likelihood of introducing SStuBs across different SStuB types?
 - **RQ2:** Are explicit mentions of potential SStuBs in code review comments associated with faster SStuB fixes, and does this relationship vary by SStuB type?
 - **RQ3:** How does PR size (in terms of lines changed and files modified) relate to the likelihood of introducing SStuBs across different SStuB types, controlling for reviewer count?
 - **RQ4:** Why do certain SStuBs escape detection by automated tests, and what factors contribute to these oversights?
