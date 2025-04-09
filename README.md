@@ -58,9 +58,7 @@ pip install -r requirements.txt
 - Set up GrimoireLab access
 - Configure GitHub API tokens
 
-## Usage
-
-Detailed usage instructions coming soon.
+3. Under each research question folder,  will contain all the scripts needed to reproduce the exact results showcased in the paper. 
 
 ## License
 
